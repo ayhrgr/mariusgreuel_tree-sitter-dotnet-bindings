@@ -85,3 +85,6 @@
 [submodule "tree-sitter-native/tree-sitter-verilog"]
 	path = tree-sitter-native/tree-sitter-verilog
 	url = https://github.com/tree-sitter/tree-sitter-verilog.git
+[submodule "tree-sitter-native/tree-sitter-markdown"]
+	path = tree-sitter-native/tree-sitter-markdown
+	url = https://github.com/tree-sitter-grammars/tree-sitter-markdown.git
