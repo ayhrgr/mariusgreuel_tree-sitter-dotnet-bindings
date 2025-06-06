@@ -49,7 +49,9 @@
     using var tree = parser.Parse("# Title\n\n- Item 1\n- Item 2\n\nParagraph text.")!;
     Console.WriteLine($"Root node: {tree.RootNode}");   // Root node: (document (section (atx_heading (atx_h1_marker) heading_content: (inline)) (list (list_item (list_marker_minus) (paragraph (inline))) (list_item (list_marker_minus) (paragraph (inline) (block_continuation)))) (paragraph (inline))))
     using var query = new Query(language, @"
-        (atx_heading (atx_h1_marker) @heading)
+        (atx_heading 
+          (atx_h1_marker) @heading
+          heading_content: (inline) @title)
         (list_item (list_marker_minus) @listitem)
         (paragraph (inline) @paragraph)
         ");
