@@ -1,0 +1,43 @@
+# Add patterns to ignore here, one per line
+# Example:
+# *.log
+# tmp/
+
+**/bin
+**/obj
+**/build
+**/.*
+
+repomix.config.json
+
+tree-sitter-native/tree-sitter
+tree-sitter-native/tree-sitter-agda
+tree-sitter-native/tree-sitter-bash
+tree-sitter-native/tree-sitter-c
+tree-sitter-native/tree-sitter-c-sharp
+tree-sitter-native/tree-sitter-cpp
+tree-sitter-native/tree-sitter-css
+tree-sitter-native/tree-sitter-embedded-template
+tree-sitter-native/tree-sitter-go
+tree-sitter-native/tree-sitter-haskell
+tree-sitter-native/tree-sitter-html
+tree-sitter-native/tree-sitter-java
+tree-sitter-native/tree-sitter-javascript
+tree-sitter-native/tree-sitter-jsdoc
+tree-sitter-native/tree-sitter-json
+tree-sitter-native/tree-sitter-julia
+tree-sitter-native/tree-sitter-markdown
+tree-sitter-native/tree-sitter-ocaml
+tree-sitter-native/tree-sitter-php
+tree-sitter-native/tree-sitter-python
+tree-sitter-native/tree-sitter-ql
+tree-sitter-native/tree-sitter-razor
+tree-sitter-native/tree-sitter-ruby
+tree-sitter-native/tree-sitter-rust
+tree-sitter-native/tree-sitter-scala
+tree-sitter-native/tree-sitter-swift
+tree-sitter-native/tree-sitter-toml
+tree-sitter-native/tree-sitter-tsq
+tree-sitter-native/tree-sitter-typescript
+tree-sitter-native/tree-sitter-verilog
+
