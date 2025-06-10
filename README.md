@@ -103,6 +103,7 @@ and the following projects:
 - [Tree-sitter query grammar](https://github.com/tree-sitter/tree-sitter-tsq)
 - [TypeScript grammar](https://github.com/tree-sitter/tree-sitter-typescript)
 - [SystemVerilog grammar](https://github.com/tree-sitter/tree-sitter-verilog)
+- [Markdown grammar](https://github.com/tree-sitter-grammars/tree-sitter-markdown)
 
 ## Development
 
