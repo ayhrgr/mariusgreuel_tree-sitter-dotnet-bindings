@@ -24,7 +24,6 @@ public class MarkdownTests
     {
         _tree?.Dispose();
         _parser.Dispose();
-        _markdown.Dispose();
     }
 
     private static string RemoveWhitespace(string input)
